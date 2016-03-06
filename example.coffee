@@ -1,8 +1,7 @@
 { component, hub, dom } = require 'odojs'
-achelper = require 'odojs-autocomplete'
+achelper = require './index'
 relay = require 'odo-relay'
 exe = require 'odoql-exe'
-relay = require 'odo-relay'
 odoql = require 'odoql/odojs'
 component.use odoql
 
